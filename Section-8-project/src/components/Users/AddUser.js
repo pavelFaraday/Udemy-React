@@ -20,7 +20,7 @@ const AddUser = (props) => {
 		if (+enteredAge < 1) {
 			return;
 		}
-		console.log(enteredUserName, enteredAge);
+		props.onAddUser(enteredUserName, enteredAge);
 		setEnteredUserName("");
 		setEnteredAge("");
 	};
@@ -46,7 +46,7 @@ const AddUser = (props) => {
 				<label htmlFor="age">Age</label>
 				<input
 					id="age"
-					type="text"
+					type="number"
 					value={enteredAge}
 					onChange={ageChangeHandler}
 				/>
