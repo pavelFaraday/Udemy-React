@@ -20,3 +20,7 @@ The Effect Hook lets you perform side effects in function components.
 **useReducer Hook**
 
 ## ![useReducer](/Slides/useReducer.png)
+
+## ![JS Reduce Function](/Slides/reducer_js.png)
+
+## ![reduce VS useReducer](/Slides/reduceVSuseReducer.png)
