@@ -15,4 +15,8 @@ All React projects on Udemy Course
 **useEffect Hook**
 The Effect Hook lets you perform side effects in function components.
 
-> ![useEffect](/Slides/useEffect.png)
+![useEffect](/Slides/useEffect.png)
+
+**useReducer Hook**
+
+## ![useReducer](/Slides/useReducer.png)
