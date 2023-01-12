@@ -28,3 +28,5 @@ The Effect Hook lets you perform side effects in function components.
 ## ![useReducer](/Slides/useReducer3.png)
 
 ## ![useReducer](/Slides/useReducer4.png)
+
+## ![useReducer](/Slides/useState_VS_useReducer.png)
