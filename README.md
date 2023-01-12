@@ -30,3 +30,11 @@ The Effect Hook lets you perform side effects in function components.
 ## ![useReducer](/Slides/useReducer4.png)
 
 ## ![useReducer](/Slides/useState_VS_useReducer.png)
+
+---
+
+## Context API
+
+> Context API is a feature in React that allows components to share information with each other without the need for props drilling. It provides a way to pass data through the component tree without having to pass props down manually at every level. This makes it easier to manage the state of your application and to update it when necessary. The Context API is a powerful tool for building React applications and can be used to handle things like user authentication, theme management, and translations.
+
+## ![useReducer](/Slides/Context-API.png)
