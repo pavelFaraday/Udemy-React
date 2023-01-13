@@ -1,13 +1,14 @@
-import React, { createContext } from "react";
+import React, { useState, createContext } from "react";
 import MainPage from "./MainPage";
 
 export const AppContext = createContext(null);
 
 function App() {
-	const user = "Steve";
+	const [count, setCounter] = useState({ name: "Steve" });
+
 	return (
-		<AppContext.Provider value={user}>
-			<MainPage user={user} />
+		<AppContext.Provider value={{ count, setCounter }}>
+			<MainPage />
 		</AppContext.Provider>
 	);
 }
