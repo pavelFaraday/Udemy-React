@@ -37,4 +37,7 @@ The Effect Hook lets you perform side effects in function components.
 
 > Context API is a feature in React that allows components to share information with each other without the need for props drilling. It provides a way to pass data through the component tree without having to pass props down manually at every level. This makes it easier to manage the state of your application and to update it when necessary. The Context API is a powerful tool for building React applications and can be used to handle things like user authentication, theme management, and translations.
 
+> ❗️ Context API is great tool when states are updating rarely. But when states are updating constantly it causes a lot of issues, because if context some value is changing, other values is rendering too (without any purposes). So, every time your information changes, every component wrapped in context.Provider re-renders. It decreases performance.
+> ❗️ So if you have an application that has data that is constatntly chnaging, it is not recomended use CONTEXT API.
+
 ## ![useReducer](/Slides/Context-API.png)
