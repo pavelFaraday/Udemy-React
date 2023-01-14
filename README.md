@@ -41,3 +41,7 @@ The Effect Hook lets you perform side effects in function components.
 > ❗️ So if you have an application that has data that is constatntly chnaging, it is not recomended use CONTEXT API.
 
 ## ![useReducer](/Slides/Context-API.png)
+
+## ![Context Limitations](/Slides/Context-Limitations.png)
+
+## ![Context Limitations](/Slides/Rules-of-Hooks.png)
