@@ -19,17 +19,17 @@ The Effect Hook lets you perform side effects in function components.
 
 **useReducer Hook**
 
-## ![useReducer](/Slides/useReducer.png)
+![useReducer](/Slides/useReducer.png)
 
-## ![JS Reduce Function](/Slides/reducer_js.png)
+![JS Reduce Function](/Slides/reducer_js.png)
 
-## ![reduce VS useReducer](/Slides/reduceVSuseReducer.png)
+![reduce VS useReducer](/Slides/reduceVSuseReducer.png)
 
-## ![useReducer](/Slides/useReducer3.png)
+![useReducer](/Slides/useReducer3.png)
 
-## ![useReducer](/Slides/useReducer4.png)
+![useReducer](/Slides/useReducer4.png)
 
-## ![useReducer](/Slides/useState_VS_useReducer.png)
+![useReducer](/Slides/useState_VS_useReducer.png)
 
 ---
 
@@ -40,8 +40,18 @@ The Effect Hook lets you perform side effects in function components.
 > ❗️ Context API is great tool when states are updating rarely. But when states are updating constantly it causes a lot of issues, because if context some value is changing, other values is rendering too (without any purposes). So, every time your information changes, every component wrapped in context.Provider re-renders. It decreases performance.
 > ❗️ So if you have an application that has data that is constatntly chnaging, it is not recomended use CONTEXT API.
 
-## ![useReducer](/Slides/Context-API.png)
+![useReducer](/Slides/Context-API.png)
 
-## ![Context Limitations](/Slides/Context-Limitations.png)
+![Context Limitations](/Slides/Context-Limitations.png)
 
-## ![Context Limitations](/Slides/Rules-of-Hooks.png)
+![Context Limitations](/Slides/Rules-of-Hooks.png)
+
+---
+
+## How Does React Work?
+
+![Context Limitations](/Slides/How_React_works.png)
+
+![Context Limitations](/Slides/How_React_works2.png)
+
+![Context Limitations](/Slides/Virtual_DOM_Working_System.png)
