@@ -75,7 +75,7 @@ The Effect Hook lets you perform side effects in function components.
 
 useCallback is a hook that allows us store a **function** across component executions. So, it allows us to tell React that we want to save a function & that function should not be recreated with every execution. **If we know that function should never change we can use useCallback to store it & disable recreation.**
 
-![useCallback hook](slides/useCallback.png)
+![React Memo](/Slides/React_memo.jpeg)
 
 ---
 
