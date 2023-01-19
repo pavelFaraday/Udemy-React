@@ -63,11 +63,9 @@ The Effect Hook lets you perform side effects in function components.
 > **Using memo will cause React to skip rendering a component if its props have not changed**. This can improve performance.
 > React.memo can be a great tool if you have a huge component tree with a lot of child components & on a high level in the component tree you can avoid unnecessary re-render cycles of the entire branch of the component tree. By avoiding reevalution of parent component we are also automatically avoiding the reevalution of it's child components. Its use is recommended only in large projects.
 
-<<<<<<< HEAD
 ![React Memo](/Slides/React_memo.jpeg)
-=======
+
 ![React Memo](/Slides//React-memo.png)
->>>>>>> 3cffe4af077af7ece9eb7e766771159be4721139
 
 [React Memo - Example](https://www.w3schools.com/react/react_memo.asp)
 
@@ -75,8 +73,7 @@ The Effect Hook lets you perform side effects in function components.
 
 ## useCallback Hook
 
-<<<<<<< HEAD
-> useCallback is a hook that allows us store a **function** across component executions. So, it allows us to tell React that we want to save a function & that function should not be recreated with every execution. **If we know that function should never change we can use useCallback to store it & disable recreation.**
+useCallback is a hook that allows us store a **function** across component executions. So, it allows us to tell React that we want to save a function & that function should not be recreated with every execution. **If we know that function should never change we can use useCallback to store it & disable recreation.**
 
 ![useCallback hook](/slides/useCallback.jpeg)
 
@@ -99,8 +96,3 @@ This can improve performance.
 The **useMemo** and **useCallback** Hooks are similar. The main difference is that useMemo returns a memoized value and useCallback returns a memoized function.
 
 ![useMemo Hook](/Slides/useMemo_Hook.png)
-=======
-> useCallback is a hook that allows us store a function across component executions. So, it allows us to tell React that we want to save a function & that function should not be recreated with every execution. **If we know that function should never change we can use useCallback to store it & disable recreation.**
-
-![useCallback hook](/slides/useCallback.png)
->>>>>>> 3cffe4af077af7ece9eb7e766771159be4721139
