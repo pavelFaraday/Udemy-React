@@ -55,3 +55,42 @@ The Effect Hook lets you perform side effects in function components.
 ![Context Limitations](/Slides/How_React_works2.png)
 
 ![Context Limitations](/Slides/Virtual_DOM_Working_System.png)
+
+---
+
+## React Memo
+
+> **Using memo will cause React to skip rendering a component if its props have not changed**. This can improve performance.
+> React.memo can be a great tool if you have a huge component tree with a lot of child components & on a high level in the component tree you can avoid unnecessary re-render cycles of the entire branch of the component tree. By avoiding reevalution of parent component we are also automatically avoiding the reevalution of it's child components. Its use is recommended only in large projects.
+
+![React Memo](/Slides/React_memo.jpeg)
+
+[React Memo - Example](https://www.w3schools.com/react/react_memo.asp)
+
+---
+
+## useCallback Hook
+
+> useCallback is a hook that allows us store a **function** across component executions. So, it allows us to tell React that we want to save a function & that function should not be recreated with every execution. **If we know that function should never change we can use useCallback to store it & disable recreation.**
+
+![useCallback hook](/slides/useCallback.jpeg)
+
+---
+
+## Stage Batching
+
+**State Batching** is when React groups multiple state updates into a single re-render for better performance. In React 17 and prior, updates inside React event handlers were batched. But updates inside of promises, setTimeout, native event handlers, or any other event were not batched in React by default.
+
+---
+
+## useMemo Hook
+
+> useMemo Hook allows us memoize/store **any kind of data** you want to store (just like useCallback does for functions).
+
+The React useMemo Hook returns a memoized value.
+**Think of memoization as caching a value so that it does not need to be recalculated.**
+**The useMemo Hook only runs when one of its dependencies update.**
+This can improve performance.
+The **useMemo** and **useCallback** Hooks are similar. The main difference is that useMemo returns a memoized value and useCallback returns a memoized function.
+
+![useMemo Hook](/Slides/useMemo_Hook.png)
