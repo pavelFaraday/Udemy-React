@@ -104,3 +104,7 @@ The **useMemo** and **useCallback** Hooks are similar. The main difference is th
 ![Class Components 3](/Slides/class_comps_3.png)
 ![Class Components 4](/Slides/class_comps_4.png)
 ![Error Baundary](/Slides/errorBoundary.png)
+
+> **ComponentDidCatch(error)** is similar to "try,catch" block
+
+---
