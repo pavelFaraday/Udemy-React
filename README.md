@@ -117,4 +117,6 @@ The **useMemo** and **useCallback** Hooks are similar. The main difference is th
 > Unlike "Regular Functions", **custom hooks** can use other React Hooks & React State (they can access useEffect, useState...).
 > **So it is just mechanism of reusing logic.**
 
+When U create custom hook, you **must** use **`use`** keyword.
+
 ---
