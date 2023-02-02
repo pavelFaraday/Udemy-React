@@ -10,6 +10,9 @@ const useCounter = () => {
 
 		return () => clearInterval(interval);
 	}, []);
+
+	// Because custom hook is FUNCTION, We must return something in custom hooks (array, object, string, boolean, number..)
+	return counter;
 };
 
 export default useCounter;
