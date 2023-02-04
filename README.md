@@ -128,3 +128,7 @@ When U create custom hook, you **must** use **`use`** keyword.
 ![Custom Hook Example](/slides/custom_hook_example.png)
 
 ---
+
+## Forms Validation
+
+![forms validation](/slides/forms_validation.png)
