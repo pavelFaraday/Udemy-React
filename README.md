@@ -131,6 +131,12 @@ When U create custom hook, you **must** use **`use`** keyword.
 
 ## Forms Validation
 
-
-
 ![Forms Validation](/slides/forms_validation.png)
+
+---
+
+## useRef Hook
+
+**useRef** is a hook in React that allows you to access the properties of a DOM element. It returns a mutable object with a single property, **current**, which you can use to store a reference to a DOM element or any other value. The value assigned to current will persist across render cycles, making it useful for accessing elements or values that change over time.
+
+For example, you can use useRef to store a reference to an input element and then use that reference to programmatically manipulate the element, such as setting its focus or value.
