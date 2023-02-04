@@ -131,4 +131,4 @@ When U create custom hook, you **must** use **`use`** keyword.
 
 ## Forms Validation
 
-![forms validation](/slides/forms_validation.png)
+![forms](/slides/forms_validation.png)
