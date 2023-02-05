@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import useCounter from "../Hooks/use-counter";
 
 import Card from "./Card";
