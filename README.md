@@ -105,7 +105,7 @@ The **useMemo** and **useCallback** Hooks are similar. The main difference is th
 ![Class Components 4](/Slides/class_comps_4.png)
 ![Error Baundary](/Slides/errorBoundary.png)
 
-![React Hooks](/slides/react_hooks.png)
+![React Hooks](/slides/react_hooks.jpg)
 
 > **ComponentDidCatch(error)** is similar to "try,catch" block
 
