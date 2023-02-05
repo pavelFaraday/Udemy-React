@@ -99,7 +99,6 @@ The **useMemo** and **useCallback** Hooks are similar. The main difference is th
 
 ## Class Based Components (Statefull Components)
 
-![React Hooks](/slides/react_hooks.jpg)
 ![Class Components](/Slides/class_comps.png)
 ![Class Components 2](/Slides/class_comps_2.png)
 ![Class Components 3](/Slides/class_comps_3.png)
@@ -119,6 +118,7 @@ The **useMemo** and **useCallback** Hooks are similar. The main difference is th
 ## Custom Hooks
 
 ![Rules of Hooks](/slides/Rules-of-Hooks.png)
+![React Hooks](/slides/react_hooks.jpg)
 
 > **Custom Hooks** are just regular functions, just as the built-in hooks (useState, useEffect..) but **they are functions which can contain statefull logic.** You can build custom hooks to outsource a statefull logic into reusable logic.
 > Unlike "Regular Functions", **custom hooks** can use other React Hooks & React State (they can access useEffect, useState...).
