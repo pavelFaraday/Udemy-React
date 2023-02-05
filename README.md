@@ -118,6 +118,7 @@ The **useMemo** and **useCallback** Hooks are similar. The main difference is th
 ## Custom Hooks
 
 ![Rules of Hooks](/slides/Rules-of-Hooks.png)
+![React Hookš](/slides/react_hooks.png)
 
 > **Custom Hooks** are just regular functions, just as the built-in hooks (useState, useEffect..) but **they are functions which can contain statefull logic.** You can build custom hooks to outsource a statefull logic into reusable logic.
 > Unlike "Regular Functions", **custom hooks** can use other React Hooks & React State (they can access useEffect, useState...).
