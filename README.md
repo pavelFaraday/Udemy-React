@@ -12,7 +12,7 @@ Example:
 `const [count, setCount] = useState(0);`
 
 ![UseState Working System](/slides/useState_working_system.png)
-![UseState Working System](/slides/useState_inputs.png)
+![UseState with Inputs](/slides/useState_inputs.png)
 
 ---
 
