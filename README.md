@@ -14,7 +14,7 @@ Example:
 ![UseState Working System](/slides/useState_working_system.png)
 ![UseState with Inputs](/slides/useState_inputs.png)
 
-<img src="/slides/useState_working_system.png" width=800>
+<img src="/slides/useState_working_system.png" alt="hello">
 
 **useState Hook Rules:**
 
