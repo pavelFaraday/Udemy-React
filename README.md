@@ -14,6 +14,18 @@ Example:
 ![UseState Working System](/slides/useState_working_system.png)
 ![UseState with Inputs](/slides/useState_inputs.png)
 
+**useState Hook Rules:**
+
+-   useState should be declared at the top level of the component, not inside loops or conditions.
+
+-   useState should be called only once in a component. If you need multiple state variables, call useState multiple times.
+
+-   The initial state can be an object, an array, a string, a number, or any other data type.
+
+-   The state update function returned by useState should be used to update the state, instead of directly changing the state.
+
+-   You can destructure the array returned by useState to get the current state value and the state update function.
+
 ---
 
 ## 10 Side Effects (Effect), Reducers, Context API
