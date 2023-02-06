@@ -11,8 +11,8 @@ All React projects on Udemy Course
 Example:
 `const [count, setCount] = useState(0);`
 
-![UseState 1](/slides/useState_working_system.png)
-![UseState 2](/slides/useState_inputs.png)
+![UseState 1](/slides/useState1.png)
+![UseState 2](/slides/useState2.png)
 
 **useState Hook Rules:**
 
