@@ -11,9 +11,6 @@ All React projects on Udemy Course
 Example:
 `const [count, setCount] = useState(0);`
 
-![UseState 1](/slides/useState1.png)
-![UseState 2](/slides/useState2.png)
-
 **useState Hook Rules:**
 
 -   useState should be declared/created at the top level of the component, It can not be created inside loops or conditions.
