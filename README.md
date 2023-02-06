@@ -14,9 +14,11 @@ Example:
 ![UseState Working System](/slides/useState_working_system.png)
 ![UseState with Inputs](/slides/useState_inputs.png)
 
+<img src="/slides/useState_working_system.png", width="800">
+
 **useState Hook Rules:**
 
--   useState should be declared at the top level of the component, not inside loops or conditions.
+-   useState should be declared/created at the top level of the component, It can not be created inside loops or conditions.
 
 -   useState should be called only once in a component. If you need multiple state variables, call useState multiple times.
 
