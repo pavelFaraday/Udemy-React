@@ -2,6 +2,20 @@
 
 All React projects on Udemy Course
 
+---
+
+## useState Hooks
+
+> **useState** is a Hook in React that allows you to add state to functional components. It returns an array with two elements: the current state value and a function to update it. The state value is initialized using the first argument to useState, and the second element of the array is used to update the state value.
+
+Example:
+`const [count, setCount] = useState(0);`
+
+![UseState Working System](/slides/useState_working_system.png)
+![UseState Working System](/slides/useState_inputs.png)
+
+---
+
 ## 10 Side Effects (Effect), Reducers, Context API
 
 **Side Effect**
