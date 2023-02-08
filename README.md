@@ -134,14 +134,14 @@ The **useMemo** and **useCallback** Hooks are similar. The main difference is th
 
 ## setInterval | clearInterval
 
-![setInterval](/slides/setInterval_clearInterval.png)
+![setInterval](/Slides/setInterval_clearInterval.png)
 
 ---
 
 ## Custom Hooks
 
-![Rules of Hooks](/slides/Rules-of-Hooks.png)
-![React Hooks](/slides/react_hooks.jpg)
+![Rules of Hooks](/Slides/Rules-of-Hooks.png)
+![React Hooks](/Slides/react_hooks.jpg)
 
 > **Custom Hooks** are just regular functions, just as the built-in hooks (useState, useEffect..) but **they are functions which can contain statefull logic.** You can build custom hooks to outsource a statefull logic into reusable logic.
 > Unlike "Regular Functions", **custom hooks** can use other React Hooks & React State (they can access useEffect, useState...).
@@ -149,13 +149,13 @@ The **useMemo** and **useCallback** Hooks are similar. The main difference is th
 
 When U create custom hook, you **must** use **`use`** keyword.
 
-![Custom Hook Example](/slides/custom_hook_example.png)
+![Custom Hook Example](/Slides/custom_hook_example.png)
 
 ---
 
 ## Forms Validation
 
-![Forms Validation](/slides/forms_validation.png)
+![Forms Validation](/Slides/forms_validation.png)
 
 ---
 
@@ -164,3 +164,15 @@ When U create custom hook, you **must** use **`use`** keyword.
 **useRef** is a hook in React that allows you to access the properties of a DOM element. It returns a mutable object with a single property, **current**, which you can use to store a reference to a DOM element or any other value. The value assigned to current will persist across render cycles, making it useful for accessing elements or values that change over time.
 
 For example, you can use useRef to store a reference to an input element and then use that reference to programmatically manipulate the element, such as setting its focus or value.
+
+---
+
+## Redux
+
+> **Redux** is an open-source JavaScript library for managing application state in web applications. It provides a centralized store for the data of an application and enforces unidirectional data flow, making it easier to understand how data changes in response to actions taken in the app. This makes it especially useful for developing complex, data-driven applications.
+
+![What is Redux](/Slides/What_is_redux.png)
+![Redux Managing State](/Slides/Redux_State.png)
+![Context API Disadventages](/Slides/Context-API.png)
+
+---
