@@ -175,5 +175,6 @@ For example, you can use useRef to store a reference to an input element and the
 ![Redux Managing State](/Slides/Redux_State.png)
 ![Context API Disadventages](/Slides/ContextAPI_disadventages.jpg)
 ![Redux Concepts](/Slides/Redux_Concepts.png)
+![Reducer Func in Redux](/Slides/Reducer_Func_in_Redux.png)
 
 ---
