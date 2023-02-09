@@ -169,7 +169,7 @@ For example, you can use useRef to store a reference to an input element and the
 
 ## Redux
 
-> **Redux** is an open-source JavaScript library for managing application state in web applications. It provides a centralized store for the data of an application and enforces unidirectional data flow, making it easier to understand how data changes in response to actions taken in the app. This makes it especially useful for developing complex, data-driven applications.
+> **Redux** is an open-source JavaScript library for managing application state in web applications. It provides a centralized store for the data of an application and enforces unidirectional data flow, making it easier to understand how data changes in response to actions taken in the app. This makes it especially useful for developing complex, data-driven applications..
 
 ![What is Redux](/Slides/What_is_redux.png)
 ![Redux Managing State](/Slides/Redux_State.png)
