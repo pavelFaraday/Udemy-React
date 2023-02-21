@@ -178,3 +178,11 @@ For example, you can use useRef to store a reference to an input element and the
 ![Reducer Func in Redux](/Slides/Reducer_Func_in_Redux.png)
 
 ---
+
+## React Router
+
+##### [Documentation](https://reactrouter.com/en/main)
+
+installation:
+
+-   `npm install react-router-dom`
